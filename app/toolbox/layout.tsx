@@ -1,4 +1,4 @@
-import SideNav from '@/app/ui/dashboard/sidenav';
+import SideNav from '@/app/ui/toolbox/sidenav';
 import React from "react";
 import {Metadata} from "next";
 
