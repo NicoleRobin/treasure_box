@@ -13,8 +13,8 @@ import clsx from 'clsx';
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
-  { name: 'Home', href: '/toolbox', icon: HomeIcon },
-  { name: 'Developer', href: '/toolbox/developer', icon: CommandLineIcon },
+  { name: '主页', href: '/toolbox', icon: HomeIcon },
+  { name: '开发者工具', href: '/toolbox/developer', icon: CommandLineIcon },
 ];
 
 export default function NavLinks() {
