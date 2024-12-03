@@ -30,7 +30,7 @@ export function Card({
     <div className="rounded-xl bg-gray-50 p-2 shadow-sm">
       <Link href={href}>
         <div className="flex p-4">
-          {Icon ? <Icon className="h-5 w-5 text-gray-700" /> : null}
+          {Icon ? <Icon className="h-5 w-5 text-gray-700 stroke-blue-400" /> : null}
           <h3 className="ml-2 text-sm font-medium">{title}</h3>
         </div>
       </Link>
