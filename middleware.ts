@@ -1,5 +1,11 @@
 import NextAuth from "next-auth";
 import { authConfig } from "@/app/auth.config";
+import { NextResponse } from 'next/server';
+
+export function middleware() {
+  // 始终允许请求通过，不做任何身份验证
+  return NextResponse.next();
+}
 
 export default NextAuth(authConfig).auth;
 
